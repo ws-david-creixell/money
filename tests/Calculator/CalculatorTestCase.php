@@ -124,6 +124,7 @@ abstract class CalculatorTestCase extends \PHPUnit_Framework_TestCase
             [1000, 0.029, '29'],
             [1000, 0.0029, '2.9'],
             [2000, 0.0029, '5.8'],
+            [0, 0.8, '0'],
         ];
     }
 
@@ -140,6 +141,7 @@ abstract class CalculatorTestCase extends \PHPUnit_Framework_TestCase
             [98, 25, '3.92'],
             [98, 24, '4.083333333333333'],
             [1, 5.1555, '0.19396760740956'],
+            [0, 8, '0'],
         ];
     }
 
